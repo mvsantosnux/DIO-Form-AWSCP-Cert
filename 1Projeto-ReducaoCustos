@@ -1,27 +1,36 @@
-Formação AWS Cloud Practitioner Certification
-1o Projeto Redução de Custos 
+===> Formação AWS Cloud Practitioner Certification <===
+======>>> 1o Projeto Redução de Custos <<<======
 
-RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
-Data: [Início 31/08/2023] Empresa: Drogarias Pharmaceutic Industries Responsável: [João Aprovo dos Santos]
+=> RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS <=
+Data: [Início 31/08/2023] Empresa: Abstergo Industries 
+                      Responsável: Marcos Vinicius dos Santos]
 
-Introdução
+===> Introdução
 Em busca de inovação, vantagens competitivas e redução de custos foi realizado a pedido do senhor João Aprovo dos Santos um estudo de viabilidade a fim de migrar os serviços de TI para nuvem AWS.
 
-Descrição do Projeto
-O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
+=> Descrição do Projeto
+O projeto de implementação de ferramentas foi dividido em 4 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
 
-Etapa 1: - [Nome da ferramenta] - [Foco da ferramenta] - [Descrição de caso de uso]
+Etapa 0: - [Levantamento de requisitos] 
+        Foi identificado que a empresa trabalha com 4 servidores sendo eles:
+          # SVR01 - banco de dados, 
+          # SVR02 - controle de acesso a rede e VPN, 
+          # SVR03 - arquivos
+          # SVR04 - BKP
+Este é o ambiete atual da empresa Abstergo Industries, foi verificado que a empresa tende a buscar novas lojas e irá adotar um plano de expansão dos negocios nos proximos 5 anos.
 
-Etapa 2: - [Nome da ferramenta] - [Foco da ferramenta] - [Descrição de caso de uso]
+Etapa 1: - [Amazon EC2] - [Migração de todos servidores locais para Nuvem] - [iremos deixar o ambiente on premisses e iremos adotar o modelo de Cloud da AWS, inicialmente iremos apenas com o servidor de aplicação e Banco de Dados]
 
-Etapa 3: - [Nome da ferramenta] - [Foco da ferramenta] - [Descrição de caso de uso]
+Etapa 2: - [AWS IAM] - [Gerenciar o acesso aos servidores] - [o AWS IAM será responsavel por gerenciar e controlar o acesso as maquinas AWS]
 
-Conclusão
-A implementação de ferramentas na empresa [nome da empresa] tem como esperado [benefícios das ferramentas], o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+Etapa 3: - [AWS Budget] - [não ter surpresas com cobranças] - [Será estipulado o budget inicial e trabalharemos em torno deste valor, ao fim do mês será apresentado um demonnstrativo de custos]
+
+=> Conclusão
+A implementação de ferramentas na empresa Abstergo Industries  tem como esperado 3 pilares SEGURANÇA, DISPONIBILIDADE, ESCALABILIDADE, REDUÇÃO DE CUSTOS, pilares estes que vão em acordo com visão estrategica da empresa.
 
 Anexos
-[lista de anexos, como manuais, documentos, planilhas, entre outros]
+
 
 Assinatura do Responsável pelo Projeto:
 
-[Nome do Responsável pelo Projeto]
+Marcos Vinicius Santos
